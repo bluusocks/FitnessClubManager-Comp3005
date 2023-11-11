@@ -1,0 +1,56 @@
+Design and implement an application for a ”Health and Fitness Club Management System”. This system will
+serve as a comprehensive platform catering to the diverse needs of club members, trainers, and administrative
+staff.
+Members should be able to register and manage their profiles, setting personal fitness goals and inputting health
+metrics. Once registered, they will gain access to a personalized dashboard that tracks their exercise routines,
+fitness achievements, and health statistics. The platform will also enable members to schedule, reschedule, or
+cancel personal training sessions with certified trainers. Furthermore, members can register for group fitness
+classes, workshops, and other events, ensuring they always stay updated with their schedules and receive timely
+reminders for their sessions.
+On the other side, the system should empower trainers with tools to manage their schedules, view member
+profiles, and input progress notes after each training session. Administrative staff, the backbone of the club’s
+operations, should have features that allow them to oversee club resources effectively. This includes managing
+room bookings, monitoring fitness equipment maintenance, and updating class schedules. Additionally, they
+should have a robust system to oversee billing, process payments for membership fees, personal training sessions,
+and other services, and monitor club activities for quality assurance. The club’s unique selling point is its loyalty program; every transaction earns members loyalty points, which can be redeemed for future services.
+
+
+
+Member
+- register (add profile to DB)
+- Manage profile (edit profile on DB)
+- profile consists of fitness goals and health metrics
+- gui of personal dashboard that tracks routines, achievements, health statistics
+- can schedule reschedule or cancel PT sessions with Trainers, + group classes etc.
+
+- Member Table
+- Trainer table
+- PT table
+- Group session table (maybe merge with PT idk)
+- Participants table for the group session
+
+Trainer Side
+- manage schedules, view member profiles, input progress of members per session
+
+Admin side
+- oversee club resources (resources table??? idk)
+- Room bookings (for sessions and stuff)
+- fitness equipment maintainance
+- edit calendar
+- billing, membership fee, PT session services, monitor club activities for QA.
+
+- Figure out the loyalty program
+
+
+
+STEP 1.
+FIGURE OUT THE DATABASE.
+
+1a. ER --> Schema --> Write out dependencies --> normalize --> final schema
+
+1b. Write SQL to create tables --> SQL to populate with dummy values
+
+STEP 2.
+Front end (agony)
+
+I literally don't want to do this
