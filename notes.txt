@@ -52,3 +52,12 @@ FIGURE OUT THE DATABASE.
 
 STEP 2.
 Front end (agony)
+
+2a. Figure out how to use Thymeleaf and Spring, use them to set up the application layers
+2b. UI? HTML probably? not sure yet. might use javafx if I'm feeling spicy
+
+
+
+TODO: 
+Decompose into relational schemas
+Fix the ER diagram explanation and clarify assumptions
