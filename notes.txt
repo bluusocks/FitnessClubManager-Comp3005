@@ -52,5 +52,3 @@ FIGURE OUT THE DATABASE.
 
 STEP 2.
 Front end (agony)
-
-I literally don't want to do this
